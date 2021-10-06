@@ -15,10 +15,10 @@
 ## :open_book: Sobre
 Este repositório contêm a aplicação EMovies.
 
-A aplicação EMovies funciona como um gerenciador de filmes, foi criada porque eu guardava todos os meus filmes favoritos que gosto de reassistir no Notion, mas ficava
+A aplicação EMovies funciona como um gerenciador de filmes. Foi criada porque eu guardava todos os meus filmes favoritos que gosto de reassistir no Notion, mas ficava
 bem desorganizado, então decidi criar essa aplicação mais organizada, com mais informações, e também mais bonita.
 
-Ela foi criada do zero (ambos a código e o design), com o intuito de treinar design responsivo (HTML e CSS) e Javascript, contendo funções de adicionar filme, filtrar, ver mais informações.
+Ela foi criada do zero (ambos o código e o design), com o intuito de treinar design responsivo (HTML e CSS) e Javascript, contendo funções de adicionar filme, filtrar e ver mais informações.
 &nbsp;
 O objetivo principal foi trabalhar com métodos de array e localStorage.
 
