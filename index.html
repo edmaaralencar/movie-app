@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <title>EMovies</title>
+</head>
+<body>
+    
+    <header>
+        <img src="./imgs/logo.svg" class="logo" alt="">
+
+        <div class="search">
+            <img src="./imgs/search-icon.svg" alt="">
+            <input class="search-input" type="text" placeholder="Vingadores">
+        </div>
+
+        <button class="add-movie">
+            <img src="./imgs/plus-icon.svg" alt="">
+            Adicionar filme
+        </button>
+    </header>
+
+    <img class="menu" src="./imgs/menu-icon.svg">
+    <div class="flex">
+        
+        <div class="movies-list hide">
+
+        </div>
+
+        <div class="movie-content">
+
+        </div>
+    </div>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <div class="modal-intro">
+                <div class="modal-title">Adicionar novo filme</div>
+                <img src="./imgs/close-icon.svg" class="close-modal" alt="">
+            </div>
+
+            <form>
+                <div class="input-container">
+                    <div class="input-box">
+                        <label for="">Título</label>
+                        <input placeholder="Vingadores" name="title" type="text">
+                    </div>
+                    <div class="input-box">
+                        <label for="">Duração</label>
+                        <input placeholder="2 horas e 20 minutos" name="duration" type="text">
+                    </div>
+                    <div class="input-box">
+                        <label for="">Caminho do imagem</label>
+                        <input placeholder="avengers-ultimato.png" name="imgpath" type="text">
+                    </div>
+                    <div class="input-box">
+                        <label for="">Avaliação</label>
+                        <input placeholder="6" name="rate" type="text">
+                    </div>
+                    <div class="input-box">
+                        <label for="">Data de lançamento</label>
+                        <input placeholder="5 de janeiro de 2018" name="releasedate" type="text">
+                    </div>
+                    <div class="input-box">
+                        <label for="">Plataforma</label>
+                        <input placeholder="Netflix" name="platform" type="text">
+                    </div>
+                    <div class="input-box">
+                        <label for="">Descrição</label>
+                        <textarea placeholder="Descrição sobre o filme" name="description" id="description" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="input-box">
+                        <label for="">Opinião</label>
+                        <textarea placeholder="Sua opinião sobre o filme" name="opinion" id="opinion" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="input-box">
+                        <label for="">Gênero</label>
+                        <input placeholder="Ação,Comédia,Drama" name="genre" type="text">
+                    </div>
+                </div>
+                <button class="modal-add--movie">Adicionar filme</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
+
+<!-- <div class="movie">
+    <img src="./imgs/avengers-image.png" alt="" class="movie-info--img">
+    <div class="movie-info">
+        <h3 class="movie-info--title">
+            Vingadores: Ultimato
+        </h3>
+        <div class="movie-info--rate">
+            <img src="./imgs/star-colored-icon.svg" alt="">
+            8/10
+        </div>
+    </div>
+</div> -->
+
+<!-- <img src="./imgs/avengers-image-banner.png" alt="" class="movie-img">
+<h1 class="movie-title">Vingadores: Ultimato</h1>
+
+<div class="movie-desc--container">
+    <div class="movie-desc--box">
+        <img src="./imgs/clock-icon.svg" alt="">
+        1 hora e 40 minutos
+    </div>
+    <div class="movie-desc--box">
+        <img src="./imgs/star-icon.svg" alt="">
+        8/10
+    </div>
+    <div class="movie-desc--box">
+        <img src="./imgs/calendar-icon.svg" alt="">
+        10 de outubro de 2019
+    </div>
+    <div class="movie-desc--box">
+        <img src="./imgs/platform-icon.svg" alt="">
+        Stremio
+    </div>
+</div>
+
+<div class="movie-genres--container">
+    <div class="movie-genre">Ação</div>
+    <div class="movie-genre">Aventura</div>
+    <div class="movie-genre">Super-herói</div>
+</div>
+
+<div class="movie-text--box">
+    <h2 class="movie-subtitle">Descrição</h2>
+    <div class="movie-desc">
+        The grave course of events set in motion by Thanos that wiped out half the universe and fractured 
+        the Avengers ranks compels the remaining Avengers to take one final stand in Marvel Studios' grand 
+        conclusion to twenty-two films, "Avengers: Endgame."
+    </div>
+</div>
+
+<div class="movie-text--box">
+    <h2 class="movie-subtitle">Opinião</h2>
+    <div class="movie-desc">
+        The grave course of events set in motion by Thanos that wiped out half the universe and fractured 
+        the Avengers ranks compels the remaining Avengers to take one final stand in Marvel Studios' grand 
+        conclusion to twenty-two films, "Avengers: Endgame."
+    </div>
+</div> -->
