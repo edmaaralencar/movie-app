@@ -23,6 +23,9 @@
   --white: #ffffff;
 }
 
+body {
+	background: var(--bg);
+
 html {
   font-size: 62.5%;
 }
